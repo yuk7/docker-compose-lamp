@@ -19,7 +19,7 @@ docker-compose up -d
 │   └── mysql  :persistence data for database
 └── services  :service configuration directory
     ├── mariadb
-        └── initdb.d  :put sql file for db initialization
+    │   └── initdb.d  :put sql file for db initialization
     └── php
         ├── Dockerfile  :php service build file
         └── php.ini  :php configuration file
